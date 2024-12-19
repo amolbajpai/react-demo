@@ -7,6 +7,7 @@ function App() {
     "name": "Amol",
     "address" : "Noida"
   }
+  let status = true;
   return (
     <div className="main">
       <h1>Jai Shri Ram</h1>
@@ -16,6 +17,11 @@ function App() {
         )
       })}
       <h2>{obj.name}</h2>
+      {(status) ?
+        <h1>This is my App</h1>
+        :
+        <h1>Status is false</h1>
+      }
     </div>
   );
 }
