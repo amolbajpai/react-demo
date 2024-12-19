@@ -18,7 +18,7 @@ function App() {
       })}
       <h2>{obj.name}</h2>
       {(status) ?
-        <h1>This is my App</h1>
+        <h1 style={{color:"red",backgroundColor: "yellow"}}>This is my App</h1>
         :
         <h1>Status is false</h1>
       }
