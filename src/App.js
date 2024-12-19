@@ -2,7 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  let names = ["Ram","Krishna","Shyam"]
+  let names = ["Ram", "Krishna", "Shyam"]
+  let obj = {
+    "name": "Amol",
+    "address" : "Noida"
+  }
   return (
     <div className="App">
       <h1>Jai Shri Ram</h1>
@@ -11,6 +15,7 @@ function App() {
           <div><h1>{v}</h1></div>
         )
       })}
+      <h2>{obj.name}</h2>
     </div>
   );
 }
