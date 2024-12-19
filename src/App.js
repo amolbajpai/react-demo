@@ -8,7 +8,12 @@ function App() {
   return (
     <div className="main">
       <Header />
-      <Card />
+      <div className='row'>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </div>
       <Footer />
 
 
@@ -20,6 +25,6 @@ export default App;
 
 function Card() {
   return (
-    <div>Card Div</div>
+    <div className="cardItems">Card Div</div>
   )
 }
