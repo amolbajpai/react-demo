@@ -4,6 +4,10 @@
 
 ## npm install ajv@6 ajv-keywords@3
 
+# to install bootstrap
+
+## npm i bootstrap
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
