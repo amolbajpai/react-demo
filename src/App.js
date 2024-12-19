@@ -8,7 +8,7 @@ function App() {
     "address" : "Noida"
   }
   return (
-    <div className="App">
+    <div className="main">
       <h1>Jai Shri Ram</h1>
       {names.map((v) => {
         return (
