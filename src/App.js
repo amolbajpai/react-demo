@@ -4,10 +4,12 @@ import Header from './Header';
 import Footer from './Footer';
 
 function App() {
+  let name = { "name": "Amol Bajpai" }
 
   return (
     <div className="main">
-      <Header />
+      
+      <Header info={name} />
       <div className='row'>
         <Card />
         <Card />
