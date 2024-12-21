@@ -4,7 +4,7 @@ import Header from './Header';
 import Footer from './Footer';
 
 function App() {
-  let name = { "name": "Amol Bajpai" }
+  let name = { "name": "Amol Bajpai" , "add" : "Pune" }
 
   return (
     <div className="main">
