@@ -8,6 +8,16 @@
 
 ## npm i bootstrap
 
+# for vercel.com
+
+# Build Command
+
+npm run build
+
+# Install command
+
+npm install --legacy-peer-deps
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
