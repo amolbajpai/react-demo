@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="main">
       
-      <Header info={name} />
+      <Header info={name}>Shri Krishnay Namah</Header>
       <div className='row'>
         <Card />
         <Card />
