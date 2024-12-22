@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './Header';
 import Footer from './Footer';
+import { blog } from './Data/blog';
 
 function App() {
   let name = { "name": "Amol Bajpai" , "add" : "Pune" }
@@ -11,10 +12,11 @@ function App() {
       
       <Header info={name}>Shri Krishnay Namah</Header>
       <div className='row'>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        {blog.map((value,i) => {
+          return (<Card pitem = {value} key={i} />)
+        })}
+
+
       </div>
       <Footer />
 
@@ -25,8 +27,14 @@ function App() {
 
 export default App;
 
-function Card() {
+function Card({pitem}) {
+
   return (
-    <div className="cardItems">Card Div</div>
+
+    <div className="cardItems" id={pitem.id}>
+      <h3>{pitem.title}</h3>
+      <p>{pitem.body}</p>
+    </div>
+
   )
 }
